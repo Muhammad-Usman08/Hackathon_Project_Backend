@@ -3,8 +3,6 @@ const app = express()
 const port = 3000;
 const productData = require('./data/products_data');
 
-
-
 //get method
 app.get('/products', function(req, res){
     res.send(productData);
