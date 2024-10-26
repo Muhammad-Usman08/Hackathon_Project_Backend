@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "name": "node-js-server",
     "builds": [
         {
             "src": "./app.js",
